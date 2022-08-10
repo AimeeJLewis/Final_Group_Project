@@ -1,4 +1,4 @@
-# Final_Group_Project - Brain Stroke Prediction
+# Final_Group_Project - :brain:Brain Stroke Prediction
 ## Communication Protocal
 We all have agreed that communication via SLACK or email is the best form of communication for our group.  We have created multiple Google Docs that we are collectively working on as well.
 ## Topic Selection

@@ -8,6 +8,6 @@ In selecting a topic, our team wanted to pick a dataset within the health indust
 2. Can we predict whether or not a person is more at risk for having a stroke based on those varying factors?
 ## Data Source
 Our dataset was soured from Kaggle - [Brain Stroke Data](https://github.com/AimeeJLewis/Final_Group_Project/blob/main/Brain_Stroke_Data/full_data.csv)<br>
-<u>Columns:</u> Gender, Age, Hyptertension, Heart Disease Status, Marital Status, Work Type, Residence, Avg Glucose Level, BMI, Smoking Status, Stroke Status<br>
-<u>Rows:</u> 4981 
+<b>Columns:</b> Gender, Age, Hyptertension, Heart Disease Status, Marital Status, Work Type, Residence, Avg Glucose Level, BMI, Smoking Status, Stroke Status<br>
+<b>Rows:</b> 4981 
 

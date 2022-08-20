@@ -29,6 +29,7 @@ CREATE TABLE gender (
 	PRIMARY KEY (id)
 );
 
+--Creating an ever_married table for Brain-StrokeDB
 CREATE TABLE ever_married (
 	id VARCHAR NOT NULL,
 	ever_married VARCHAR NOT NULL,
@@ -36,6 +37,7 @@ CREATE TABLE ever_married (
 	PRIMARY KEY (id)
 );
 
+--Creating a work_type table for Brain-StrokeDB
 CREATE TABLE work_type (
 	id VARCHAR NOT NULL,
 	work_type VARCHAR NOT NULL,
@@ -43,6 +45,7 @@ CREATE TABLE work_type (
 	PRIMARY KEY (id)
 );
 
+--Creating a Residence_type table for Brain-StrokeDB
 CREATE TABLE Residence_type (
 	id VARCHAR NOT NULL,
 	Residence_type VARCHAR NOT NULL,
@@ -50,6 +53,7 @@ CREATE TABLE Residence_type (
 	PRIMARY KEY (id)
 );
 
+--Creating a smoking_status table for Brain-StrokeDB
 CREATE TABLE smoking_status (
 	id VARCHAR NOT NULL,
 	smoking_status VARCHAR NOT NULL,
@@ -57,9 +61,42 @@ CREATE TABLE smoking_status (
 	PRIMARY KEY (id)
 );
 
+--Creating an age table for Brain-StrokeDB
 CREATE TABLE age (
 	id VARCHAR NOT NULL,
 	age INT NOT NULL,
+	stroke INT NOT NULL,
+	PRIMARY KEY (id)
+);
+
+--Creating a hypertension data table for Brain-StrokeDB
+CREATE TABLE hypertension (
+	id VARCHAR NOT NULL,
+	hypertension INT NOT NULL,
+	stroke INT NOT NULL,
+	PRIMARY KEY (id)
+);
+
+--Creating heart_disease data table for Brain-StrokeDB
+CREATE TABLE heart_disease (
+	id VARCHAR NOT NULL,
+	heart_disease INT NOT NULL,
+	stroke INT NOT NULL,
+	PRIMARY KEY (id)
+);
+
+--Creating avg_glucose_level data table for Brain-StrokeDB
+CREATE TABLE avg_glucose_level (
+	id VARCHAR NOT NULL,
+	avg_glucose_level FLOAT NOT NULL,
+	stroke INT NOT NULL,
+	PRIMARY KEY (id)
+);
+
+--Creating bmi data table for Brain-StrokeDB
+CREATE TABLE bmi (
+	id VARCHAR NOT NULL,
+	bmi FLOAT NOT NULL,
 	stroke INT NOT NULL,
 	PRIMARY KEY (id)
 );

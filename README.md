@@ -18,7 +18,8 @@ Python scripts and multiple libraries were used in Jupyter Notebook to clean and
 ### Engineering and Feature Selection
 There were multiple columns that we needed to convert from categorical data into numerical data.  We used the label encoder to convert the gender, smoking_status, work_type, Residence_type, and ever_married columns into either 0 or 1 indicators. The 'id' column was also dropped from the table.  
 ### Model Choice
-we found that the Random Forest modeling was the best fit for predicting the possibility of a stroke.  
+We found that the Random Forest modeling was the best fit for predicting the possibility of a stroke with a 99% accuracy. 
+<img width="431" alt="Screen Shot 2022-08-21 at 6 53 42 PM" src="https://user-images.githubusercontent.com/101950175/185823687-dc3e7d88-c7c0-426f-ab55-818cc1a768ba.png">
 ### Splitting the Data
 For the Random Forest, x amd y were split into training and testing sets.  The x variable used the following columns: gender, age, hyptertension, heart_disease, ever_married, work_type, Residence_type, avg_glucose_level, bmi, and smoking_status. The y variable used the stroke column to determine whether or not a person was more at risk for having a stroke.
 ### Limitations and Benefits

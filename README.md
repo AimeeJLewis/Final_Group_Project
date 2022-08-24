@@ -1,4 +1,5 @@
 # Final_Group_Project - :brain:Brain Stroke Prediction
+<img width="770" alt="Screen Shot 2022-08-18 at 8 36 33 PM" src="https://user-images.githubusercontent.com/101950175/186309555-4d9a5531-4d18-4751-8db3-0def414912ed.png">
 ## Google Slides Link 
 Download Final Project -> [HERE](https://docs.google.com/presentation/d/13kMQFWVXgDKijk3mbu2N-kw86XDC63hT_DMw8WKwhlo/edit?usp=sharing)
 ## Team Members - Roles
@@ -17,6 +18,8 @@ Our dataset was soured from Kaggle - [Brain Stroke Data](https://github.com/Aime
 <b>Columns/Attributes:</b> Gender, Age, Hyptertension, Heart Disease Status, Marital Status, Work Type, Residence, Avg Glucose Level, BMI, Smoking Status, Stroke Status<br>
 <img width="1003" alt="Screen Shot 2022-08-16 at 8 02 38 PM" src="https://user-images.githubusercontent.com/101950175/185025512-56dae90f-ca07-4f3d-94fa-a8a9725e2ff6.png">
 <b>Rows:</b> 4981 
+## Technologies/Tools Used
+Python, Pandas, PostgreSQL, SQLAlchemy, Plotly, SKLearn, Numpy, Matplotlib, IMBLearn
 ## Machine Learning
 ### Preliminary Preprocessing of the Data
 Python scripts and multiple libraries were used in Jupyter Notebook to clean and analyze the dataset. Specifically, the Pandas library was used to clean the dataset - we dropped null values and dropped the first column.  After the data file was cleaned, it was imported into Postgres using SQL.  A split was done and two tables were created - demographics and health data. Those tables were then joined together on the column 'id'. Using an entity relationship diagram, the ERD shows the two tables and how the column 'id' was used to join the tables together.
@@ -24,9 +27,12 @@ Python scripts and multiple libraries were used in Jupyter Notebook to clean and
 ### Engineering and Feature Selection
 There were multiple columns that we needed to convert from categorical data into numerical data.  We used the label encoder to convert the gender, smoking_status, work_type, Residence_type, and ever_married columns into either 0 or 1 indicators. The 'id' column was also dropped from the table.  
 ### Model Choice
+
 We found that the Random Forest modeling was the best fit for predicting the possibility of a stroke with a 99% accuracy. 
 <img width="431" alt="Screen Shot 2022-08-21 at 6 53 42 PM" src="https://user-images.githubusercontent.com/101950175/185823687-dc3e7d88-c7c0-426f-ab55-818cc1a768ba.png">
+
 ### Splitting the Data
-For the Random Forest, x amd y were split into training and testing sets.  The x variable used the following columns: gender, age, hyptertension, heart_disease, ever_married, work_type, Residence_type, avg_glucose_level, bmi, and smoking_status. The y variable used the stroke column to determine whether or not a person was more at risk for having a stroke.
+The data was resampled so that the number of stroke occurences were the same as the number of non-stroke occurences.  
+X amd Y were then split into training and testing sets.  The x variable used the following columns: gender, age, hyptertension, heart_disease, ever_married, work_type, Residence_type, avg_glucose_level, bmi, and smoking_status. The y variable used the stroke column to determine whether or not a person was more at risk for having a stroke.
 ### Limitations and Benefits
 The benefit of Random Forest is it reduces overfitting in decision trees and helps to improve the accuracy. The limitation of the Random Forest modeling requires more time for training the model as it combines a lot of decision tress to determine the class.  

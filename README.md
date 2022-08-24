@@ -1,7 +1,8 @@
-<img width="500" alt="Screen Shot 2022-08-18 at 8 36 33 PM" src="https://user-images.githubusercontent.com/101950175/186310066-a694a0a6-38ac-462a-a3d6-d82b360c1b10.png">
 # Final_Group_Project - :brain:Brain Stroke Prediction
-## Google Slides Link 
 
+<img width="500" alt="Screen Shot 2022-08-18 at 8 36 33 PM" src="https://user-images.githubusercontent.com/101950175/186310689-6edff6a6-89d1-4a3e-8bb7-6b2d17fac9f0.png">
+
+## Google Slides Link 
 Download Final Project -> [HERE](https://docs.google.com/presentation/d/13kMQFWVXgDKijk3mbu2N-kw86XDC63hT_DMw8WKwhlo/edit?usp=sharing)
 ## Team Members - Roles
 * [Aimee Lewis](https://github.com/AimeeJLewis) - Repository (Square)

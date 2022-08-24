@@ -1,6 +1,13 @@
 # Final_Group_Project - :brain:Brain Stroke Prediction
 ## Google Slides Link 
 Download Final Project -> [HERE](https://docs.google.com/presentation/d/13kMQFWVXgDKijk3mbu2N-kw86XDC63hT_DMw8WKwhlo/edit?usp=sharing)
+## Team Members - Roles
+* [Aimee Lewis][1]
+* [Derick Rosenquist][2]
+* [Tyler Midcalf][3]
+
+[1]:(https://github.com/AimeeJLewis)
+
 ## Communication Protocal
 We all have agreed that communication via SLACK or email is the best form of communication for our group.  We have created multiple Google Docs that we are collectively working on as well.
 ## Topic Selection

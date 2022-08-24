@@ -1,5 +1,6 @@
 # Final_Group_Project - :brain:Brain Stroke Prediction
-<img width="770" alt="Screen Shot 2022-08-18 at 8 36 33 PM" src="https://user-images.githubusercontent.com/101950175/186309555-4d9a5531-4d18-4751-8db3-0def414912ed.png">
+<img width="500" alt="Screen Shot 2022-08-18 at 8 36 33 PM" src="https://user-images.githubusercontent.com/101950175/186309555-4d9a5531-4d18-4751-8db3-0def414912ed.png">
+<br>
 ## Google Slides Link 
 Download Final Project -> [HERE](https://docs.google.com/presentation/d/13kMQFWVXgDKijk3mbu2N-kw86XDC63hT_DMw8WKwhlo/edit?usp=sharing)
 ## Team Members - Roles

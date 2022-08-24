@@ -16,8 +16,10 @@ In selecting a topic, our team wanted to pick a dataset within the health indust
 1. What varying factors have the greatest impact on whether or not an individual is more at risk for having a stroke?
 2. Can we predict whether or not a person is more at risk for having a stroke based on those varying factors?
 ## Data Source
-Our dataset was soured from Kaggle - [Brain Stroke Data](https://github.com/AimeeJLewis/Final_Group_Project/blob/main/Brain_Stroke_Data/full_data.csv)<br>
-<b>Columns/Attributes:</b> Gender, Age, Hyptertension, Heart Disease Status, Marital Status, Work Type, Residence, Avg Glucose Level, BMI, Smoking Status, Stroke Status<br>
+Our dataset was sourced from Kaggle - [Brain Stroke Data](https://github.com/AimeeJLewis/Final_Group_Project/blob/main/Brain_Stroke_Data/full_data.csv)<br>
+<b>Columns/Attributes:</b> Gender, Age, [Hypertension](https://www.cdc.gov/bloodpressure/index.htm), 
+[Heart Disease](https://www.cdc.gov/heartdisease/index.htm) Status, Marital Status, Work Type, Residence, Avg [Glucose](https://my.clevelandclinic.org/health/diagnostics/12363-blood-glucose-test) Level, [BMI](https://www.cdc.gov/healthyweight/assessing/bmi/index.html), Smoking Status, [Stroke](https://www.cdc.gov/stroke/index.htm)
+Status<br>
 <img width="1003" alt="Screen Shot 2022-08-16 at 8 02 38 PM" src="https://user-images.githubusercontent.com/101950175/185025512-56dae90f-ca07-4f3d-94fa-a8a9725e2ff6.png">
 <b>Rows:</b> 4981 
 ## Technologies/Tools Used

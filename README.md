@@ -29,10 +29,19 @@ Python scripts and multiple libraries were used in Jupyter Notebook to clean and
 ### Engineering and Feature Selection
 There were multiple columns that we needed to convert from categorical data into numerical data.  We used the label encoder to convert the gender, smoking_status, work_type, Residence_type, and ever_married columns into either 0 or 1 indicators. The 'id' column was also dropped from the table.  
 ### Model Choice
+<b>Logistic Regression</b>
+<br>
+<img width="436" alt="Screen Shot 2022-08-23 at 8 01 49 PM" src="https://user-images.githubusercontent.com/101950175/186311044-a3675fd6-2720-4f96-86f9-d9d0357a09fb.png">
 
-We found that the Random Forest modeling was the best fit for predicting the possibility of a stroke with a 99% accuracy. 
+<b>Random Forest</b>
+<br>
 <img width="431" alt="Screen Shot 2022-08-21 at 6 53 42 PM" src="https://user-images.githubusercontent.com/101950175/185823687-dc3e7d88-c7c0-426f-ab55-818cc1a768ba.png">
 
+<b>Support Vector</b>
+<br>
+<img width="438" alt="Screen Shot 2022-08-23 at 8 02 45 PM" src="https://user-images.githubusercontent.com/101950175/186311155-2f159d9e-2c2d-416e-bdde-d416a194427f.png">
+<br>
+We found that the Random Forest modeling was the best fit for predicting the possibility of a stroke with a 99% accuracy.
 ### Splitting the Data
 The data was resampled so that the number of stroke occurences were the same as the number of non-stroke occurences.  
 X amd Y were then split into training and testing sets.  The x variable used the following columns: gender, age, hyptertension, heart_disease, ever_married, work_type, Residence_type, avg_glucose_level, bmi, and smoking_status. The y variable used the stroke column to determine whether or not a person was more at risk for having a stroke.

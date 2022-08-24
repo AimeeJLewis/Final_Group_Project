@@ -15,8 +15,8 @@ In selecting a topic, our team wanted to pick a dataset within the health indust
 ## Data Source
 Our dataset was soured from Kaggle - [Brain Stroke Data](https://github.com/AimeeJLewis/Final_Group_Project/blob/main/Brain_Stroke_Data/full_data.csv)<br>
 <b>Columns/Attributes:</b> Gender, Age, Hyptertension, Heart Disease Status, Marital Status, Work Type, Residence, Avg Glucose Level, BMI, Smoking Status, Stroke Status<br>
-<b>Rows:</b> 4981 
 <img width="1003" alt="Screen Shot 2022-08-16 at 8 02 38 PM" src="https://user-images.githubusercontent.com/101950175/185025512-56dae90f-ca07-4f3d-94fa-a8a9725e2ff6.png">
+<b>Rows:</b> 4981 
 ## Machine Learning
 ### Preliminary Preprocessing of the Data
 Python scripts and multiple libraries were used in Jupyter Notebook to clean and analyze the dataset. Specifically, the Pandas library was used to clean the dataset - we dropped null values and dropped the first column.  After the data file was cleaned, it was imported into Postgres using SQL.  A split was done and two tables were created - demographics and health data. Those tables were then joined together on the column 'id'. Using an entity relationship diagram, the ERD shows the two tables and how the column 'id' was used to join the tables together.

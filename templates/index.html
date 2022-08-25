@@ -83,7 +83,7 @@ integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28an
         <li>
           <label for="height">Height:</label><br>
           <input type="range" min="48" max="84" value="66" class="slider" id="height" style="width:200px">
-          <p style="color: #ffff">Value: <span id="demo"></span></p>
+          <p style="color: #ffff"><span id="demo"></span></p>
         </li>
         <li>
             <label for="weight">Weight:</label><br>
@@ -226,7 +226,7 @@ function myFunction() {
 <script>
     var slider = document.getElementById("height");
     var output = document.getElementById("demo");
-    output.innerHTML = slider.value;
+    output.innerHTML = (`${Math.floor((slider.value)/12)} Feet ${(slider.value) % 12} Inches`);
     
     
 

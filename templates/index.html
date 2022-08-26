@@ -32,20 +32,11 @@ integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28an
         <li><a href="#data">Data Visualizations</a></li>
       </ul>
   </div>
-
-  <!-- Navbar on small screens -->
-  <div id="navDemo" style="background-color:#24292f" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
-    <a href="#predictor" style="color:#ffffff" class="w3-bar-item w3-button w3-padding-large">Link 1</a>
-    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 2</a>
-    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 3</a>
-    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 4</a>
-  </div>
 </div>
 
 <!-- Header -->
-<header id="home" class="w3-container w3-center" style="padding: 376px; background-image: url(../images/background_brain.png); background-size: 100% 100%;">
-  <h1 style="font-size: 100px">TITLE HERE</h1>
-  <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top">Get Started</button>
+<header id="home" style="padding: 390px; background-image: url(../images/background_brain.png); background-size: 100% 100%;">
+  <h1 style="font-size: 100px" align="right">TITLE HERE</h1>
 </header>
 
 <!-- First Grid -->
@@ -54,7 +45,7 @@ integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28an
     <h2 style="color: #f8d6d6"> About </h2>
 
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-7">
 
                 <!-- Edit this text with a brief intoduction / brand statement etc. -->
                 <h5 style="color: #ffff">
@@ -64,6 +55,9 @@ integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28an
                     lacinia ipsum.
                 </h5>
             </div>
+            <div align="right" class="col-md-5">
+                <img src="../images/brain_about.png" alt="Brain" style="height:350px;">
+            </div>
         </div>
     </div>
 </section>
@@ -71,11 +65,9 @@ integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28an
 <!-- Second Grid -->
 <section id="predictor" class="fragment fragment-two">
 <div class="container">
-
-    <h2 style="color: #f8d6d6">Lorem Ipsum</h2><br>
       <div class="row">
         <div class="col-md-3">
-      <ul class="selector" >
+      <ul class="selector">
         <li>
           <label for="age">Age:</label><br>
           <input type="text" id="age" placeholder="In years" style="width:200px"><p></p>
@@ -148,7 +140,21 @@ integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28an
         
       </ul>
     </div>
-
+    <div align="right" class="col-md-9">
+        <h2 style="color: #f8d6d6">Lorem Ipsum</h2><br>
+            <!-- Edit this text with a brief intoduction / brand statement etc. -->
+            <h5 style="color: #ffff">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent non sem luctus,
+                feugiat
+                libero id,
+                lacinia ipsum.
+            </h5><br><br>
+        <ul class="predict">
+            <h5 style="color: #ffff">
+                ****This box is meant to display the results of the machine learning model****
+            </h5>
+        </ul>
+    </div>
   </div>
 </div>
 </section>
@@ -179,32 +185,26 @@ integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28an
     <section class="fragment fragment-six">
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
+                <div align="center" class="col-md-4">
                     <h5 style="color: #f8d6d6">Tyler Midcalf</h5>
 
                     <!--update these links to match your own social media profiles -->
-                    <a href="https://twitter.com" class="social-icon"><i class="fab fa-twitter" style='color: #ffff'></i></a>
                     <a href="https://linkedin.com/in" class="social-icon"><i class="fab fa-linkedin" style='color: #ffff'></i></a>
                     <a href="jttps://github.com/" class="social-icon"><i class="fab fa-github" style='color: #ffff'></i></a>
-                    <a href="mailto:<YOUREMAIL>" class="social-icon"><i class="fas fa-envelope" style='color: #ffff'></i></a>
                 </div>
-                <div class="col-md-4">
+                <div align="center" class="col-md-4">
                     <h5 style="color: #f8d6d6">Amiee Lewis</h5>
 
                     <!--update these links to match your own social media profiles -->
-                    <a href="https://twitter.com" class="social-icon"><i class="fab fa-twitter" style='color: #ffffff'></i></a>
                     <a href="https://linkedin.com/in" class="social-icon"><i class="fab fa-linkedin" style='color: #ffffff'></i></a>
                     <a href="jttps://github.com/" class="social-icon"><i class="fab fa-github" style='color: #ffffff'></i></a>
-                    <a href="mailto:<YOUREMAIL>" class="social-icon"><i class="fas fa-envelope" style='color: #ffffff'></i></a>
                 </div>
-                <div class="col-md-4">
+                <div align="center" class="col-md-4">
                     <h5 style="color: #f8d6d6">Derick Rosenquist</h5>
 
                     <!--update these links to match your own social media profiles -->
-                    <a href="https://twitter.com" class="social-icon"><i class="fab fa-twitter" style='color: #ffffff'></i></a>
                     <a href="https://linkedin.com/in" class="social-icon"><i class="fab fa-linkedin" style='color: #ffffff'></i></a>
                     <a href="jttps://github.com/" class="social-icon"><i class="fab fa-github" style='color: #ffffff'></i></a>
-                    <a href="mailto:<YOUREMAIL>" class="social-icon"><i class="fas fa-envelope" style='color: #ffffff'></i></a>
                 </div>
             </div>
         </div>

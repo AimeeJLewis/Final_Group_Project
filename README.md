@@ -8,6 +8,9 @@ Download Final Project -> [HERE](https://docs.google.com/presentation/d/13kMQFWV
 ## Web Page Link
 Access Web Page -> 
 
+## Tableau Dashboard Link
+Access Tableau Dashboard -> [HERE](https://public.tableau.com/app/profile/derick.rosenquist/viz/UOBootCampFinalProjectBrainStroke/StrokeDataSummary)
+
 ## Team Members - Roles
 * [Aimee Lewis](https://github.com/AimeeJLewis) - Repository (Square)
 * [Derick Rosenquist](https://github.com/drosenquist) - Database (Circle)

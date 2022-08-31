@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return render_template('index.html', test="hello")
+    return render_template('index.html')
 
 @app.route("/", methods=['GET', 'POST'])
 def input():
@@ -24,7 +24,7 @@ def input():
         heart = request.form['heart']
         agl = request.form['agl']
         results = model.mlearn(age, height, weight, sex, married, work, res, smoke, hyper, heart, agl)
-        return render_template("index.html", test=results)
+        return render_template('index.html', test=results)
     else:
         return render_template('index.html')
 

@@ -37,7 +37,7 @@ integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28an
 
 <!-- Header -->
 <header id="home" style="padding: 390px; background-image: url(../static/images/background_brain.png); background-size: 100% 100%;">
-  <h1 style="font-size: 100px" align="right">TITLE HERE</h1>
+  <h1 style="font-size: 100px" align="right">At Risk for a Brain Stroke?</h1>
 </header>
 
 <!-- First Grid -->
@@ -50,10 +50,7 @@ integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28an
 
                 <!-- Edit this text with a brief intoduction / brand statement etc. -->
                 <h5 style="color: #ffff">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent non sem luctus,
-                    feugiat
-                    libero id,
-                    lacinia ipsum.
+                  Welcome to our brain stroke predictor.  Did you know that strokes are the 2nd leading cause of death globally according to the World Health Organization(WHO), responsible for approximately 11% of total deaths. Based on the following factors: Gender, Age, Hypertension, Heart Disease Status, Marital Status, Work Type, Residence, Avg Glucose Level, BMI, Smoking Status, and Stroke Status can we predict whether or not an individual is more at risk for having a stroke.
                 </h5>
             </div>
             <div align="right" class="col-md-5">
@@ -148,10 +145,12 @@ integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28an
         <h2 style="color: #f8d6d6">Machine Learning</h2><br>
             <!-- Edit this text with a brief intoduction / brand statement etc. -->
             <h5 style="color: #ffff">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent non sem luctus,
-                feugiat
-                libero id,
-                lacinia ipsum.
+              X-Variables = Gender, Age, Hypertension, Heart Disease, Ever Married, Residence Type, Avg. Glucose Level, BMI, Work Type, Smoking Status
+              Y-Variable = Stroke
+               
+              Data was resampled so number of stroke occurrences = number of non-stroke occurrences. Then the data was then split and trained.
+               
+              Using a Random Forest Classifier as our machine learning model the data was then fitted for the model in order to predict stroke outcomes.              
             </h5><br><br>
         <ul class="predict">
             <h5 style="color: #ffff">
@@ -173,10 +172,7 @@ integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28an
 
                 <!-- Edit this text with a brief intoduction / brand statement etc. -->
                 <h5 style="color: #ffff">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent non sem luctus,
-                    feugiat
-                    libero id,
-                    lacinia ipsum.
+                  Our Tableau dashboards providing further insight on our findings.
                 </h5>
                 <div class='tableauPlaceholder' id='viz1661743301076' style='position: relative'><noscript><a href='http:&#47;&#47;127.0.0.1:5000&#47;'><img alt='Stroke Data Summary ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;UO&#47;UOBootCampFinalProjectBrainStroke&#47;StrokeDataSummary&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='path' value='views&#47;UOBootCampFinalProjectBrainStroke&#47;StrokeDataSummary?:language=en-US&amp;:embed=y&amp;:toolbar=yes&amp;:embed_code_version=3&amp;:loadOrderID=0&amp;:display_count=yes&amp;:tabs=no' /> <param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;UO&#47;UOBootCampFinalProjectBrainStroke&#47;StrokeDataSummary&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='tabs' value='no' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1661743301076');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
             </div>
@@ -193,10 +189,7 @@ integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28an
             <div class="col-md-9">
                 <h2 style="color: #f8d6d6"> Conclusion </h2>
                 <h5 style="color: #ffff">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent non sem luctus,
-                    feugiat
-                    libero id,
-                    lacinia ipsum.
+                  Using the Random Forest Classifier we were able to produce a model with a 99% accuracy.  Based on the data, there is a strong correlation with increasing age, people are more at risk for having a stroke.  Females are slightly more at risk than males with a 57.42% vs 42.58% respectively.  We found that people with higher BMI were more at risk for having stroke, but heart disease did not have a significant impact.
                 </h5>
             </div>
         </div>

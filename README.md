@@ -6,7 +6,7 @@
 Download Final Project -> [HERE](https://docs.google.com/presentation/d/13kMQFWVXgDKijk3mbu2N-kw86XDC63hT_DMw8WKwhlo/edit?usp=sharing)
 
 ## Web Page Link
-Access Web Page -> [HERE](https://brain-stroke-project.herokuapp.com/)
+Are You at Risk for a Stroke? -> [FOUND OUT HERE](https://brain-stroke-project.herokuapp.com/)
 
 ## Tableau Dashboard Link
 Access Tableau Dashboard -> [HERE](https://public.tableau.com/app/profile/derick.rosenquist/viz/UOBootCampFinalProjectBrainStroke/StrokeDataSummary)

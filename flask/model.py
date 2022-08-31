@@ -1,18 +1,6 @@
 import numpy as np
 import pickle
 
-# age = 30
-# height = 74
-# weight = 160
-# sex = 1
-# married = 1
-# work = 1
-# res = 1
-# smoke = 1
-# hyper = 0
-# heart = 0
-# agl = 80
-
 def mlearn(age, height, weight, sex, married, work, res, smoke, hyper, heart, agl):
     loaded_model = pickle.load(open("finalized_model.sav", 'rb'))
     data = []
@@ -48,7 +36,3 @@ def mlearn(age, height, weight, sex, married, work, res, smoke, hyper, heart, ag
 
     else:
         return "With the information provided you ARE prone to brain stroke"
-
-# mlearn(age, height, weight, sex, married, work, res, smoke, hyper, heart, agl)
-
-# print(results)

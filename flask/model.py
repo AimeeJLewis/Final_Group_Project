@@ -41,9 +41,13 @@ def mlearn(age, height, weight, sex, married, work, res, smoke, hyper, heart, ag
     data.append(res)
     data.append(smoke)
     new_data = np.array([data])
-    results = str(loaded_model.predict(new_data)[0])
+    results = loaded_model.predict(new_data)[0]
 
-    return results
+    if results == 0:
+        return "With the information provided you are NOT prone to brain stroke"
+
+    else:
+        return "With the information provided you ARE prone to brain stroke"
 
 # mlearn(age, height, weight, sex, married, work, res, smoke, hyper, heart, agl)
 

@@ -15,8 +15,7 @@ Access Tableau Dashboard -> [HERE](https://public.tableau.com/app/profile/derick
 * [Aimee Lewis](https://github.com/AimeeJLewis) - Repository (Square)
 * [Derick Rosenquist](https://github.com/drosenquist) - Database (Circle)
 * [Tyler Midcalf](https://github.com/tmidcalf) - Machine Learning (Triangle)
-## Communication Protocal
-We all have agreed that communication via SLACK or email is the best form of communication for our group.  We have created multiple Google Docs that we are collectively working on as well.
+
 ## Topic Selection
 In selecting a topic, our team wanted to pick a dataset within the health industry. According to the World Health Organization(WHO) strokes are the 2nd leading cause of death globally, responsible for approximately 11% of total deaths. We all have been affected by someone we know who has had a stroke, and we wanted to determine if we could understand what varying factors play a role in whether an individual is more or less likely to be at risk for having a stroke. 
 ### Investigative Questions

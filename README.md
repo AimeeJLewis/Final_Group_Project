@@ -6,7 +6,7 @@
 Download Final Project -> [HERE](https://docs.google.com/presentation/d/13kMQFWVXgDKijk3mbu2N-kw86XDC63hT_DMw8WKwhlo/edit?usp=sharing)
 
 ## Web Page Link
-Access Web Page -> 
+Access Web Page -> [HERE](https://brain-stroke-project.herokuapp.com/)
 
 ## Tableau Dashboard Link
 Access Tableau Dashboard -> [HERE](https://public.tableau.com/app/profile/derick.rosenquist/viz/UOBootCampFinalProjectBrainStroke/StrokeDataSummary)
@@ -58,3 +58,6 @@ X amd Y were then split into training and testing sets.  The x variable used the
 
 ### Limitations and Benefits
 The benefit of Random Forest is it reduces overfitting in decision trees and helps to improve the accuracy. The limitation of the Random Forest modeling requires more time for training the model as it combines a lot of decision tress to determine the class.  
+
+### Conclusion
+Using the Random Forest Classifier we were able to produce a model with a 99% accuracy. Based on the data, there is a strong correlation with increasing age, people are more at risk for having a stroke. Females are slightly more at risk than males with a 57.42% vs 42.58% respectively. We found that people with higher BMI were more at risk for having stroke, but heart disease did not have a significant impact.

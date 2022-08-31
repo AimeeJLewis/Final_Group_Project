@@ -12,22 +12,30 @@ def index():
 @app.route("/", methods=['GET', 'POST'])
 def input():
     if request.method == 'POST':
-        age = request.form['age']
-        height = request.form['height']
-        weight = request.form['weight']
-        sex = request.form['sex']
-        married = request.form['married']
-        work = request.form['work']
-        res = request.form['res']
-        smoke = request.form['smoke']
-        hyper = request.form['hyper']
-        heart = request.form['heart']
-        agl = request.form['agl']
-        results = model.mlearn(age, height, weight, sex, married, work, res, smoke, hyper, heart, agl)
-        return render_template('index.html', test=results)
-    else:
-        return render_template('index.html')
+        if request.form['submit_button'] == 'submit':
+            age = request.form['age']
+            height = request.form['height']
+            weight = request.form['weight']
+            sex = request.form['sex']
+            married = request.form['married']
+            work = request.form['work']
+            res = request.form['res']
+            smoke = request.form['smoke']
+            hyper = request.form['hyper']
+            heart = request.form['heart']
+            agl = request.form['agl']
+            results = model.mlearn(age, height, weight, sex, married, work, res, smoke, hyper, heart, agl)
+            return render_template('results.html', results=results)
+        else:
+            return render_template('index.html')
 
+@app.route("/home", methods=['GET', 'POST'])
+def home():
+    if request.method == 'POST':
+        if request.form['submit_button'] == 'Return to Homepage':
+            return render_template('index.html')
+        else:
+            return render_template('index.html')
 
 if __name__ == "__main__":
     app.run(debug = True)

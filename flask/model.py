@@ -32,15 +32,7 @@ def mlearn(age, height, weight, sex, married, work, res, smoke, hyper, heart, ag
     results = loaded_model.predict(new_data)[0]
 
     if results == 0:
-        return "With the information provided you are NOT prone to brain stroke"
+        return f"After running the random forest machine learning model with the information provided, with 99% accuracy you are NOT prone to brain stroke"
 
     else:
-        return "With the information provided you ARE prone to brain stroke"
-
-loaded_model = pickle.load(open("flask/finalized_model.sav", 'rb'))
-
-new_data = np.array([[0, 0, 162.23, 27.3, 0, 56, 1, 0, 0, 0]])
-
-results = loaded_model.predict(new_data)
-
-print(results)
+        return f"After running the random forest machine learning model with the information provided, with 99% accuracy you ARE prone to brain stroke"

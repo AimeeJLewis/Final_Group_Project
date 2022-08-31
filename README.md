@@ -29,7 +29,7 @@ Status<br>
 <img width="1003" alt="Screen Shot 2022-08-16 at 8 02 38 PM" src="https://user-images.githubusercontent.com/101950175/185025512-56dae90f-ca07-4f3d-94fa-a8a9725e2ff6.png">
 <b>Rows:</b> 4981 
 ## Technologies/Tools Used
-Python, Pandas, PostgreSQL, SQLAlchemy, Plotly, SKLearn, Numpy, Matplotlib, IMBLearn, Excel
+Python, Pandas, PostgreSQL, SQLAlchemy, Plotly, SKLearn, Numpy, Matplotlib, IMBLearn, Excel, Flask, Heroku, Pickle
 ## Machine Learning
 ### Preliminary Preprocessing of the Data
 Python scripts and multiple libraries were used in Jupyter Notebook to clean and analyze the dataset. Specifically, the Pandas library was used to clean the dataset - we dropped null values.  After the data file was cleaned, it was imported into Postgres using SQL.  A split was done and two tables were created - demographics and health data. Those tables were then joined together on the column 'id'. Using an entity relationship diagram, the ERD shows the two tables and how the column 'id' was used to join the tables together.

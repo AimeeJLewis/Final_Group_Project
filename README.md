@@ -49,7 +49,8 @@ There were multiple columns that we needed to convert from categorical data into
 <br>
 <img width="438" alt="Screen Shot 2022-08-23 at 8 02 45 PM" src="https://user-images.githubusercontent.com/101950175/186311155-2f159d9e-2c2d-416e-bdde-d416a194427f.png">
 <br>
-We found that the Random Forest modeling was the best fit for predicting the possibility of a stroke with a 99% accuracy.
+We found that the Random Forest modeling was the best fit for predicting the possibility of a stroke with a 99% accuracy. Watch our Machine Model in Action [HERE](https://brain-stroke-project.herokuapp.com/)
+
 ### Splitting the Data
 
 The data was resampled so that the number of stroke occurences were the same as the number of non-stroke occurences.  
@@ -60,3 +61,6 @@ The benefit of Random Forest is it reduces overfitting in decision trees and hel
 
 ### Conclusion
 Using the Random Forest Classifier we were able to produce a model with a 99% accuracy. Based on the data, there is a strong correlation with increasing age, people are more at risk for having a stroke. Females are slightly more at risk than males with a 57.42% vs 42.58% respectively. We found that people with higher BMI were more at risk for having stroke, but heart disease did not have a significant impact.
+
+### Recommendations
+

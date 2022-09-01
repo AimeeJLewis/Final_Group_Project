@@ -6,15 +6,10 @@
 Download Final Project -> [HERE](https://docs.google.com/presentation/d/13kMQFWVXgDKijk3mbu2N-kw86XDC63hT_DMw8WKwhlo/edit?usp=sharing)
 
 ## Web Page Link
-Are You at Risk for a Stroke? -> [FOUND OUT HERE](https://brain-stroke-project.herokuapp.com/)
+Are You at Risk for a Stroke? -> [FIND OUT HERE](https://brain-stroke-project.herokuapp.com/)
 
 ## Tableau Dashboard Link
 Access Tableau Dashboard -> [HERE](https://public.tableau.com/app/profile/derick.rosenquist/viz/UOBootCampFinalProjectBrainStroke/StrokeDataSummary)
-
-## Team Members - Roles
-* [Aimee Lewis](https://github.com/AimeeJLewis) - Repository (Square)
-* [Derick Rosenquist](https://github.com/drosenquist) - Database (Circle)
-* [Tyler Midcalf](https://github.com/tmidcalf) - Machine Learning (Triangle)
 
 ## Topic Selection
 In selecting a topic, our team wanted to pick a dataset within the health industry. According to the World Health Organization(WHO) strokes are the 2nd leading cause of death globally, responsible for approximately 11% of total deaths. We all have been affected by someone we know who has had a stroke, and we wanted to determine if we could understand what varying factors play a role in whether an individual is more or less likely to be at risk for having a stroke. 

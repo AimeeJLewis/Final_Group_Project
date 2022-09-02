@@ -32,7 +32,7 @@ def mlearn(age, height, weight, sex, married, work, res, smoke, hyper, heart, ag
     results = loaded_model.predict(new_data)[0]
 
     if results == 0:
-        return f"After running the random forest machine learning model with the information provided, with 99% accuracy you are NOT prone to brain stroke"
+        return f"After running the random forest machine learning model with the information provided, with 99% accuracy, you are NOT prone to a brain stroke."
 
     else:
-        return f"After running the random forest machine learning model with the information provided, with 99% accuracy you ARE prone to brain stroke"
+        return f"After running the random forest machine learning model with the information provided, with 99% accuracy, you ARE prone to a brain stroke."

@@ -18,6 +18,8 @@
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
     integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
 <link rel="stylesheet" href="../static/style.css">
+
+<meta charset="UTF-8">
 </head>
 <body>
 
@@ -43,13 +45,25 @@
 <section class="fragment fragment-one">
     <div class="container">
         <div id="about" class="row" style="padding-top: 75px;">
-          <h2 style="color: #f8d6d6" align="right"> About </h2>
-          <div class="col-md-5">
-            <img src="../static/images/brain_about.png" alt="Brain" style="height:350px;">
+          <h2 style="color: #f8d6d6; font-size: 32pt;" align="center">About<br></h2>
+          <div class="col-md-4">
+            <img src="../static/images/about_brain.png" alt="Brain" style="width: 100%">
           </div>
-          <div align="right" class="col-md-7">
+          <div align="left" class="col-md-8">
             <h5 style="color: #ffff">
-              Welcome to our brain stroke predictor.  Did you know that strokes are the 2nd leading cause of death globally according to the World Health Organization(WHO), responsible for approximately 11% of total deaths. Based on the following factors: Gender, Age, Hypertension, Heart Disease Status, Marital Status, Work Type, Residence, Avg Glucose Level, BMI, Smoking Status, and Stroke Status can we predict whether or not an individual is more at risk for having a stroke.
+              Welcome to our brain stroke predictor!<br><br>
+              We all have been affected by someone we know who has had a stroke, and we 
+              wanted to determine if we could understand what varying factors play a role in 
+              whether an individual is more or less likely to be at risk for having a stroke.<br><br>
+              
+              &#129504; Strokes are the 2nd leading cause of death globally, responsible for approximately 11% of total deaths.<br><br>
+              &#129504;When deprived of blood and the oxygen it carries, or when bleeding saturates the surrounding tissue causing the 
+              brain to swell, the brain’s operation becomes compromised.<br><br>
+              &#129504;Can cause long-term vision problems, seizures, fatigue, loss of speech, memory loss, and paralysis among other adverse effects. 
+              They can also cause death.<br><br>
+
+              Based on the following factors: Gender, Age, Hypertension, Heart Disease Status, Marital Status, Work Type, Residence, 
+              Avg Glucose Level, BMI, and Smoking Status can we predict whether or not an individual is more at risk for having a stroke?
             </h5>
           </div>
         </div>
@@ -59,18 +73,27 @@
 <!-- Machine Learning Grid -->
 <section id="predictor" class="fragment fragment-two">
   <div class="container">
-    <h2 style="color: #f8d6d6">Machine Learning</h2><br>
+    <h2 style="color: #f8d6d6; font-size: 32pt;" align="center">Machine Learning<br></h2>
     <div class="row">
       <div class="col-md-9">
           <h5 style="color: #ffff">
-            X-Variables = Gender, Age, Hypertension, Heart Disease, Ever Married, Residence Type, Avg. Glucose Level, BMI, Work Type, Smoking Status
-            Y-Variable = Stroke
-                 
-            Data was resampled so number of stroke occurrences = number of non-stroke occurrences. Then the data was then split and trained.
-                 
-            Using a Random Forest Classifier as our machine learning model the data was then fitted for the model in order to predict stroke outcomes. <br>
+            To determine which machine learning model to use we tested out three different supervised machine on our dataset and observed how well 
+            each machine performed. The three machines we tested were a logistic regression model, a random forest model and a support vector machine. 
+            Of the three models tested the random forest performed the best. From the picture below we can see that the random forest performed with 99% 
+            accuracy.<br><br>
+
+            <img src="../static/images/random_forest_results.png" alt="blood glucose chart" style="width: 50%;">
+            <br><br>
+            The data was resampled using an oversampling so that the number of stroke occurrences were the same as the number of non-stroke occurrences.
+            X and Y were then split into training and testing sets. The x variable used the following columns for gender, age, 
+            hypertension, heart disease, marital status, work type, residence type, average glucose level, bmi, and smoking status. 
+            The y variable used the stroke column to determine whether or not a person was more at risk for having a stroke.    
+            <br><br>
             
-            <img src="../static/images/blood_sugar_chart.png" alt="blood glucose chart" style="width: 850px;">
+            Here you can use our random forest model by inputting your own information to see if you are prone to brain stroke. Below is a helpful 
+            guide if you do not know your average glucose level<br><br>
+
+            <img src="../static/images/diabetes-chart-1.jpg" alt="blood glucose chart" style="width: 50%;">
           </h5><br><br>
       </div>
     <div class="col-md-3">
@@ -156,7 +179,7 @@
 <!-- Data Visualizations Grid -->
 <section id="data" class="fragment fragment-three">
   <div class="container">
-    <h2 style="color: #f8d6d6"> Data Visualizations </h2>
+    <h2 style="color: #f8d6d6; font-size: 32pt;" align="center"> Data Visualizations<br></h2>
     <div class="row">
       <div class="col-md-12">
         <h5 style="color: #ffff">
@@ -200,11 +223,24 @@
 <!-- Conclusion Grid -->
 <section id="conclusion" class="fragment fragment-four">
   <div class="container">
-    <h2 style="color: #f8d6d6"> Conclusion </h2>
+    <h2 style="color: #f8d6d6; font-size: 32pt;" align="center">Conclusion<br></h2>
     <div class="row">
-      <div class="col-md-9">
+      <div class="col-md-12">
         <h5 style="color: #ffff">
-          Using the Random Forest Classifier we were able to produce a model with a 99% accuracy.  Based on the data, there is a strong correlation with increasing age, people are more at risk for having a stroke.  Females are slightly more at risk than males with a 57.42% vs 42.58% respectively.  We found that people with higher BMI were more at risk for having stroke, but heart disease did not have a significant impact.
+          Our data showed that people who have heart disease or hypertension are more likely to have a stroke. 
+          Woman and men had a similar percentage of those who suffered a stroke. A higher percentage of those 
+          who are self-employed had a stroke, which could indicate that not having a fixed salary can suffer 
+          from increased risk of a stroke and people who smoke and formerly smoked are those who had a higher 
+          percentage of having a stroke because smoking is a cause of short and long term diseases.<br><br>
+
+          Our data set didn’t include other potential factors of stroke like drug use, alcohol consumption, and 
+          family history of strokes. Collecting and analyzing additional factors would help our machine learning 
+          model in determining if other individuals are at potential risk of stroke. Also, our data set didn’t 
+          have a high number of those who have had a stroke, causing us to use oversampling creating artificial 
+          data for the machine learning model. <br><br>
+
+          <img src="../static/images/conclusion_brain.png" alt="Brain" style="width: 100%">
+
         </h5>
       </div>
     </div>
@@ -225,12 +261,12 @@
         </div>
         <div align="center" class="col-md-4">
           <h5 style="color: #f8d6d6">Aimee Lewis</h5>
-          <a href="https://linkedin.com/in" class="social-icon"><i class="fab fa-linkedin" style='color: #ffffff'></i></a>
+          <a href="https://www.linkedin.com/in/aimeejlewis/" class="social-icon"><i class="fab fa-linkedin" style='color: #ffffff'></i></a>
           <a href="https://github.com/AimeeJLewis" class="social-icon"><i class="fab fa-github" style='color: #ffffff'></i></a>
         </div>
         <div align="center" class="col-md-4">
           <h5 style="color: #f8d6d6">Derick Rosenquist</h5>
-          <a href="https://linkedin.com/in" class="social-icon"><i class="fab fa-linkedin" style='color: #ffffff'></i></a>
+          <a href="https://www.linkedin.com/in/derickrosenquist/" class="social-icon"><i class="fab fa-linkedin" style='color: #ffffff'></i></a>
           <a href="https://github.com/drosenquist" class="social-icon"><i class="fab fa-github" style='color: #ffffff'></i></a>
         </div><br><br><br>
         <div align="center" class="col-md-12">
@@ -265,6 +301,5 @@ function myFunction() {
     }
 </script>
     
-
 </body>
 </html>
